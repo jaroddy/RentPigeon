@@ -7,7 +7,6 @@ name = "rentpigeon"
 version = "0.1.0"
 description = "Streamlit app that scrapes & normalizes real-estate listings via ScrapFly."
 requires-python = ">=3.10,<3.13"
-readme = "README.md"
 authors = [{ name = "Jacob Rodriguez" }]
 license = { text = "Proprietary" }
 

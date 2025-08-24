@@ -1,0 +1,5 @@
+# .env.example
+SCRAPFLY_API_KEY=your-key-here
+OPENAI_API_KEY=sk-...
+MAX_CONCURRENCY=8
+REQUEST_TIMEOUT_S=30

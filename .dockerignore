@@ -1,0 +1,16 @@
+@'
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+.env
+.env.*
+.git/
+.gitignore
+.DS_Store
+dist/
+build/
+.cache/
+'@ | Set-Content -Encoding UTF8 .dockerignore

@@ -1,0 +1,15 @@
+services:
+  app:
+    image: rentpigeon:latest
+    container_name: rentpigeon
+    ports:
+      - "8501:8501"          # change left side to 8080 if you prefer
+    env_file:
+      - .env                 # uses your existing .env
+    environment:
+      STREAMLIT_SERVER_PORT: "8501"
+    command: >
+      streamlit run rentpigeon/ui/streamlit_app.py
+      --server.port=8501
+      --server.headless=true
+    restart: unless-stopped
